@@ -11,6 +11,9 @@ program
     'Bundle then deploy your channel to a named roku'
   )
   .command(
+    'upload <roku> <zipPath>'
+  )
+  .command(
     'package <flavor> <roku>',
     'Package a channel flavor with a roku device'
   )
